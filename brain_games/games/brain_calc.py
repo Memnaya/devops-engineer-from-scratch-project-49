@@ -15,9 +15,9 @@ def calc_game():
                 return a * b
 
     def game_logic():
-        a = random.randint(1, 100)
-        b = random.randint(1, 100)
-        op = random.choice(operations)
+        a = random.randint(1, 100) # NOSONAR
+        b = random.randint(1, 100) # NOSONAR
+        op = random.choice(operations) # NOSONAR
 
         question = f"{a} {op} {b}"
         answer = str(calculate(a, b, op))

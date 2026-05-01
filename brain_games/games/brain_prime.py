@@ -24,7 +24,7 @@ def prime_game():
         return True
 
     def game_logic():
-        number = random.randint(1, 100)
+        number = random.randint(1, 100) # NOSONAR
 
         question = str(number)
         answer = "yes" if is_prime(number) else "no"

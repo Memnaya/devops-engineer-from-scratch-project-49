@@ -10,8 +10,8 @@ def gcd_game():
         return a
 
     def game_logic():
-        a = random.randint(1, 100)
-        b = random.randint(1, 100)
+        a = random.randint(1, 100) # NOSONAR
+        b = random.randint(1, 100) # NOSONAR
 
         question = f"{a} {b}"
         answer = str(gcd(a, b))
