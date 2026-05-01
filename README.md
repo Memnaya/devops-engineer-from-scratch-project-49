@@ -22,3 +22,7 @@ make install
 ```bash
 make brain-games
 ```
+
+### Brain-even game
+
+[![asciicast](https://asciinema.org/a/MzGJoP3GhautzZqf.svg)](https://asciinema.org/a/MzGJoP3GhautzZqf)

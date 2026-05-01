@@ -1,10 +1,9 @@
-from brain_games.cli import welcome_user
+from brain_games.engine import run_game
+from brain_games.scripts.brain_even import description, game_logic
 
 
 def main():
-    print("Welcome to the Brain Games!")
-    welcome_user()
+    run_game(description, game_logic)
 
-
-if __name__ == "__main__":
-    main()
+    if __name__ == "__main__":
+        main()
