@@ -25,4 +25,8 @@ make brain-games
 
 ### Brain-even game
 
-[![asciicast](https://asciinema.org/a/MzGJoP3GhautzZqf.svg)](https://asciinema.org/a/MzGJoP3GhautzZqf)
+<a href="https://asciinema.org/a/MzGJoP3GhautzZqf" target="_blank"><img src="https://asciinema.org/a/MzGJoP3GhautzZqf.svg" /></a>
+
+### Brain-calc game
+
+<a href="https://asciinema.org/a/RhHyBVR0udRBqEyS" target="_blank"><img src="https://asciinema.org/a/RhHyBVR0udRBqEyS.svg" /></a>

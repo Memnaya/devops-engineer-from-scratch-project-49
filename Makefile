@@ -13,5 +13,8 @@ package-install:
 lint:
 	@uv run ruff check brain_games
 
+lint-fix:
+	@uv run ruff check brain_games --fix
+
 brain-games:
 	@uv run brain-games
