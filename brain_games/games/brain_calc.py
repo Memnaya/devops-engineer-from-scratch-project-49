@@ -1,27 +1,26 @@
 import random
 
+TASK = "What is the result of the expression?"
 
-def calc_game():
-    description = "What is the result of the expression?"
-    operations = ["+", "-", "*"]
+operations = ["+", "-", "*"]
 
-    def calculate(a, b, op):
-        match op:
-            case "+":
-                return a + b
-            case "-":
-                return a - b
-            case "*":
-                return a * b
 
-    def game_logic():
-        a = random.randint(1, 100) # NOSONAR
-        b = random.randint(1, 100) # NOSONAR
-        op = random.choice(operations) # NOSONAR
+def calculate(a: int, b: int, op: str) -> int:
+    match op:
+        case "+":
+            return a + b
+        case "-":
+            return a - b
+        case "*":
+            return a * b
 
-        question = f"{a} {op} {b}"
-        answer = str(calculate(a, b, op))
 
-        return question, answer
+def game_logic():
+    a = random.randint(1, 100)  # NOSONAR
+    b = random.randint(1, 100)  # NOSONAR
+    op = random.choice(operations)  # NOSONAR
 
-    return description, game_logic
+    question = f"{a} {op} {b}"
+    correct_answer = str(calculate(a, b, op))
+
+    return question, correct_answer
