@@ -38,3 +38,7 @@ make brain-games
 ### Brain-progression game
 
 <a href="https://asciinema.org/a/iq0EBB8P5WFU3sWI" target="_blank"><img src="https://asciinema.org/a/iq0EBB8P5WFU3sWI.svg" /></a>
+
+### Brain-prime game
+
+<a href="https://asciinema.org/a/g4Mi6DaPLd5JOsGx" target="_blank"><img src="https://asciinema.org/a/g4Mi6DaPLd5JOsGx.svg" /></a>

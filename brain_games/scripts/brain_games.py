@@ -1,14 +1,8 @@
-from brain_games.engine import run_games
-
-# from brain_games.games.brain_even import even_game
-# from brain_games.games.brain_calc import calc_game
-# from brain_games.games.brain_gcd import gcd_game
-from brain_games.games.brain_progression import progression_game
+from brain_games.cli import start_cli
 
 
 def main():
-    game = progression_game
-    run_games(game)
+    start_cli()
 
 
 if __name__ == "__main__":
