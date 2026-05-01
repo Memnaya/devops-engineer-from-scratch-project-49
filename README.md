@@ -30,3 +30,7 @@ make brain-games
 ### Brain-calc game
 
 <a href="https://asciinema.org/a/RhHyBVR0udRBqEyS" target="_blank"><img src="https://asciinema.org/a/RhHyBVR0udRBqEyS.svg" /></a>
+
+### Brain-gcd game
+
+<a href="https://asciinema.org/a/tlXqLzGB0LG8XtHi" target="_blank"><img src="https://asciinema.org/a/tlXqLzGB0LG8XtHi.svg" /></a>

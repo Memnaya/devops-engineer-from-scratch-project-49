@@ -1,5 +1,7 @@
 from brain_games.cli import welcome_user
 
+ROUNDS_COUNT = 3
+
 
 def run_games(game):
     description, game_logic = game()
@@ -8,7 +10,7 @@ def run_games(game):
     name = welcome_user()
     print(description)
 
-    for _ in range(3):
+    for _ in range(ROUNDS_COUNT):
         question, correct_answer = game_logic()
 
         print(f"Question: {question}")
