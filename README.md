@@ -34,3 +34,7 @@ make brain-games
 ### Brain-gcd game
 
 <a href="https://asciinema.org/a/tlXqLzGB0LG8XtHi" target="_blank"><img src="https://asciinema.org/a/tlXqLzGB0LG8XtHi.svg" /></a>
+
+### Brain-progression game
+
+<a href="https://asciinema.org/a/iq0EBB8P5WFU3sWI" target="_blank"><img src="https://asciinema.org/a/iq0EBB8P5WFU3sWI.svg" /></a>
